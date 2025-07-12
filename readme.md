@@ -18,7 +18,7 @@ git clone https://github.com/shyswan43/Rubberband.git
 ```
 can be installed by using conda
 ```
-conda install shyswan43::my-snakemake-tool
+conda install shyswan43::rubberband
 ```
 
 ## Usage
