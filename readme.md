@@ -1,7 +1,7 @@
 # Rubberband
 
 ## Intro
-Rubberband is bioinfo pipeline tool made with Snakemake which can use abricate dealing with multiple fasta files and generate summary xslx file that showing the virulence genes and resistance genes of these genomes. Also, it can annotation fasta files in batches and generate summary xlsx file showing the hits in the preset gene list of some genes that may express beneficial functions.
+Rubberband is a bioinfo pipeline tool made with Snakemake which can use abricate dealing with multiple fasta files and generate summary xslx file that showing the virulence genes and resistance genes of these genomes. Also, it can annotation fasta files in batches and generate summary xlsx file showing the hits in the preset gene list of some genes that may express beneficial functions.
 
 ## Dependencies
 - python3
