@@ -83,7 +83,7 @@ snakemake -j 1 --use-conda --config mode_type=kegg_sum # generate summary file
 ```
 to rerun the tasks move the inputs and outputs to other places
 
-##Citation
+## Citation
 Seemann T, Abricate, Github https://github.com/tseemann/abricate
 NCBI AMRFinderPlus - doi: 10.1128/AAC.00483-19
 CARD - doi:10.1093/nar/gkw1004
