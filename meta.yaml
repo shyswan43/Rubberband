@@ -1,0 +1,19 @@
+package:
+  name: rubberband
+  version: "0.1.0"
+
+source:
+  path: .  # 如果直接在项目根目录下放 meta.yaml，表示从当前目录构建
+
+build:
+  script: 
+    - mkdir -p $PREFIX/bin/rubberband  # 创建安装目录
+    - cp -r * $PREFIX/bin/rubberband  # 复制工具文件到环境
+    - chmod +x $PREFIX/bin/rubberband/Snakefile  # 赋予可执行权限
+
+requirements:
+  host:
+    - python =3.11.13
+  run:
+    
+
