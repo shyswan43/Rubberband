@@ -82,4 +82,14 @@ snakemake -j 1 --use-conda --config mode_type=kegg # kegg annotation only allows
 snakemake -j 1 --use-conda --config mode_type=kegg_sum # generate summary file
 ```
 to rerun the tasks move the inputs and outputs to other places
-        
+
+##Citation
+Seemann T, Abricate, Github https://github.com/tseemann/abricate
+NCBI AMRFinderPlus - doi: 10.1128/AAC.00483-19
+CARD - doi:10.1093/nar/gkw1004
+Resfinder - doi:10.1093/jac/dks261
+ARG-ANNOT - doi:10.1128/AAC.01310-13
+VFDB - doi:10.1093/nar/gkv1239
+PlasmidFinder - doi:10.1128/AAC.02412-14
+EcOH - doi:10.1099/mgen.0.000064
+MEGARES 2.00 - doi:10.1093/nar/gkz1010
