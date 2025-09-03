@@ -1,6 +1,0 @@
-input_dir: "/mnt/c/Users/郭海天/Desktop/test1/input"   # 替换为输入目录路径
-output_dir: "/mnt/c/Users/郭海天/Desktop/test1/output"   # 替换为输出目录路径
-kofam_db: "/mnt/c/Users/郭海天/Desktop/anno/profiles"  # 替换为你的 kofam 数据库路径
-kofam_ko_list: "/mnt/c/Users/郭海天/Desktop/anno/ko_kist"   # 替换为你的 kofam 的ko_list路径
-abricate_env: "abricate"         # 你的conda中为abricate创建的环境名
-kofamscan_env: "kofamscan_env"       # 你的conda中为kofamscan创建的环境名
