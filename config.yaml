@@ -1,0 +1,5 @@
+input_dir: /home/guohaitian/rubberband/input/
+output_dir: /home/guohaitian/rubberband/output/
+mode_type: kegg_sum
+profile: null
+ko_list: null
