@@ -43,16 +43,19 @@ you can get help info by
 rubberband -h
 ```
 ### Using abricate to generate summary
+input type: .fasta
 ```
 rubberband --input path/to/your/data --output path/to/result --type abricate        #run databases
 ```
 ```
 rubberband --input path/to/your/data --output path/to/result --type abricate_sum        #generate summary xlsx
 ```
-### Using kegg annotation and get summary generated from preset gene list    
+### Using kegg annotation and get summary generated from preset gene list
+input type: .faa
 ```
 rubberband --input path/to/your/data --output path/to/result --type kegg -p path/to/profile -k path/to/ko_list        #kegg annotation
 ```
 ```
 rubberband --input path/to/your/data --output path/to/result --type kegg_sum        #generate summary xlsx
 ```
+
